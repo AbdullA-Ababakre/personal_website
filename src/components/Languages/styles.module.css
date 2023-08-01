@@ -50,6 +50,10 @@ h1{
     opacity: 1;
   }
 
+  .text__purple {
+    color: #6030b1;
+  }
+
   /* Small phones, tablets, large smartphones */
 @media (max-width: 768px) {
   h1 {

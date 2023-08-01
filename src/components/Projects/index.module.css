@@ -115,6 +115,10 @@ h1{
   }
 }
 
+.text__purple {
+  color: #6030b1;
+}
+
 /* SMALL PHONES */
 @media (max-width: 480px) {
   .project__wrapper {

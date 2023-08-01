@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Abdulla is cool',
+  favicon: 'https://s1.ax1x.com/2023/08/01/pPCo0IJ.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -71,7 +71,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://s1.ax1x.com/2023/08/01/pPCo0IJ.png',
         },
         items: [
           {

@@ -1,9 +1,10 @@
 /* ABOUT ME */
 
-#about_me {
-  min-height: 100vh;
+.about_me {
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .about_me__info {
