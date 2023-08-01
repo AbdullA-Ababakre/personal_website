@@ -32,7 +32,7 @@ export default function Languages() {
               </figure>{" "}
               <span className={styles.language__name}> CSS </span>{" "}
             </div>{" "}
-            <div className="language">
+            <div className={styles.language}>
               <figure className={styles.language__img__wrapper}>
                 <img
                   src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"

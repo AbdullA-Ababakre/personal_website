@@ -49,3 +49,19 @@ h1{
     transform: scale(1);
     opacity: 1;
   }
+
+  /* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .about-me__info--para {
+    font-size: 18px;
+  }
+
+  .language {
+    width: calc(100% / 2);
+  }
+
+}
