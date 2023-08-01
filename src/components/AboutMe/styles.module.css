@@ -32,6 +32,10 @@
   animation: animate-profile-picture 800ms 200ms backwards;
 }
 
+.typed {
+  font-size: 40px;
+}
+
 @keyframes animate-profile-picture {
   0% {
     transform: scale(0);
@@ -57,7 +61,7 @@
   animation: fade-up 650ms 400ms backwards;
 }
 .about_me__info__para {
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 28px;
   animation: fade-up 650ms 600ms backwards;
 }

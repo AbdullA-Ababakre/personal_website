@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import AboutMe from "@site/src/components/AboutMe";
 import Projects from "@site/src/components/Projects";
 import Languages from "../components/Languages";
+import Footer from "@site/src/components/Footer";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutMe />
       <Languages />
       <Projects />
+      {/* <Footer /> */}
     </Layout>
   );
 }
