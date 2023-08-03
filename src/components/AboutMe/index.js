@@ -15,7 +15,6 @@ export default function HomepageFeatures() {
         "<i>A fullstack javascript engineer</i>",
         "A Proud Uyghur",
         "An Engineer who tried several startUps",
-        "A new Comer to USA",
       ],
       typeSpeed: 50,
     });

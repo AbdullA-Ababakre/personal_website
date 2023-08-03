@@ -1,90 +1,53 @@
 import React from "react";
 import styles from "./index.module.css";
-import { FaGithub } from 'react-icons/fa';
-import { FiExternalLink } from 'react-icons/fi';
+import PorjectItem from "../projectItem";
 
 export default function Projects() {
-    return (
-        <section id="projects">
-            <div className={styles.container}>
-                <div className={styles.row}>
-                    <h1 className={styles.section__title}>Here are some of my <span className={styles.text__purple}>projects</span></h1>
-                    <ul className={styles.project__list}>
-                        <li className={styles.project}>
-                            <div className={styles.project__wrapper}>
-                                <img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" className={styles.project__img} alt="Car subscription project" />
-                                <div className={styles.project__description}>
-                                    <h3 className={styles.project__description__title}>Car sales project</h3>
-                                    <h4 className={styles.project__description__sub_title}>
-                                        Html, CSS, JavaScript, Vue, Vuex
-                                    </h4>
-                                    <p className={styles.project__description__para}>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget,
-                                        luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                                    </p>
-                                    <div className={styles.project__description__links}>
-                                        <a href="https://www.github.com/yourlink" target="_blank" className={styles.project__description__link}>
-                                            <FaGithub size={24} />
-                                        </a>
-                                        <a href="https://www.yourwebsite.com" className={styles.project__description__link}>
-                                            <FiExternalLink size={24} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li className={styles.project}>
-                            <div className={styles.project__wrapper}>
-                                <img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" className={styles.project__img} alt="Car subscription project" />
-                                <div className={styles.project__description}>
-                                    <h3 className={styles.project__description__title}>Car sales project</h3>
-                                    <h4 className={styles.project__description__sub_title}>
-                                        Html, CSS, JavaScript, Vue, Vuex
-                                    </h4>
-                                    <p className={styles.project__description__para}>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget,
-                                        luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                                    </p>
-                                    <div className={styles.project__description__links}>
-                                        <a href="https://www.github.com/yourlink" target="_blank" className={styles.project__description__link}>
-                                            <FaGithub size={24} />
-                                        </a>
-                                        <a href="https://www.yourwebsite.com" className={styles.project__description__link}>
-                                            <FiExternalLink size={24} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li className={styles.project}>
-                            <div className={styles.project__wrapper}>
-                                <img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png" className={styles.project__img} alt="Car subscription project" />
-                                <div className={styles.project__description}>
-                                    <h3 className={styles.project__description__title}>Dashboard</h3>
-                                    <h4 className={styles.project__description__sub_title}>
-                                        Html, CSS, JavaScript, Vue, Vuex
-                                    </h4>
-                                    <p className={styles.project__description__para}>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget,
-                                        luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                                    </p>
-                                    <div className={styles.project__description__links}>
-                                        <a href="https://www.github.com/yourlink" target="_blank" className={styles.project__description__link}>
-                                            <FaGithub size={24} />
-                                        </a>
-                                        <a href="https://www.yourwebsite.com" className={styles.project__description__link}>
-                                            <FiExternalLink size={24} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    );
+  const projects = [
+    {
+      title: "Avarlab official website",
+      subtitle: "Html, CSS, JavaScript,React,threeJs,mindAR",
+      description:
+        "Official site for digital human start up company using ReactJs DIY digital human dressing",
+      github: "https://www.github.com/yourlink",
+      website: "https://avarlab.com/",
+      image: "https://s1.ax1x.com/2023/08/02/pPCLXwV.png",
+    },
+    {
+      title: "digitl human DIY website",
+      subtitle: "Html, CSS, JavaScript,React,threeJs",
+      description: "DIY digital human dressing site using ThreeJs",
+      github: "https://www.github.com/yourlink",
+      website: "https://aiuni.io/",
+      image: "https://s1.ax1x.com/2023/08/02/pPCLOe0.png",
+    },
+    {
+      title: "Car sales project",
+      subtitle: "Html, CSS, JavaScript, Vue, Vuex",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.",
+      github: "https://www.github.com/yourlink",
+      website: "https://www.yourwebsite.com",
+      image:
+        "https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png",
+    },
+  ];
+
+  return (
+    <section id="projects">
+      <div className={styles.container}>
+        <div className={styles.row}>
+          <h1 className={styles.section__title}>
+            Here are some of my{" "}
+            <span className={styles.text__purple}>projects</span>
+          </h1>
+          <ul className={styles.project__list}>
+            {projects.map((project, index) => {
+              return <PorjectItem key={index} project={project} />;
+            })}
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
 }
