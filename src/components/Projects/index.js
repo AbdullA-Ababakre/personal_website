@@ -22,14 +22,22 @@ export default function Projects() {
       image: "https://s1.ax1x.com/2023/08/02/pPCLOe0.png",
     },
     {
-      title: "Car sales project",
-      subtitle: "Html, CSS, JavaScript, Vue, Vuex",
+      title: "Umbrella-Uber",
+      subtitle: "wxml,wxss,javascript,NodeJs ,Mongodb",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.",
-      github: "https://www.github.com/yourlink",
-      website: "https://www.yourwebsite.com",
-      image:
-        "https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png",
+        "This is a wechat mini program for connecting the one who has a umbrella with the one who doesn't . Used wxml,wxss,javascript,NodeJs ,Mongodb",
+      github: "https://github.com/AbdullA-Ababakre/MATCH_UMBRELLA",
+      website: "https://github.com/AbdullA-Ababakre/MATCH_UMBRELLA",
+      image: "https://s1.ax1x.com/2023/08/15/pPM2238.png",
+    },
+    {
+      title: "Personal-Mentor",
+      subtitle: "wxml,wxss,javascript,NodeJs ,Mongodb",
+      description:
+        "One-to-one personal experience sharing site connecting experienced senior schoolmates with the ones who need some guidance .",
+      github: "https://mp.weixin.qq.com/s/Q1nrPBoLqBRHLv1cEifqrA",
+      website: "https://mp.weixin.qq.com/s/k7Dz4U0_G0LxN0-5XK-iHA",
+      image: "https://s1.ax1x.com/2023/08/15/pPM24Bj.png",
     },
   ];
 
