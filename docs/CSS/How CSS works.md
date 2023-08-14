@@ -12,7 +12,7 @@ https://ssqphnzv7a.feishu.cn/space/api/box/stream/download/asynccode/?code=NTFhO
 
 最终经过几个过程就渲染出我们所能看到的 Web 页面：
 
-https://ssqphnzv7a.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTI5MWViOTkwNzM1NzE0OTI5Mjg0ODNjNjc0MWI3MThfWjBvZ3I4SlhveUtVWmJpM3Zza3BnekFwQ3hCekxORDZfVG9rZW46Ym94Y25HT1llOWVJOUpNZWRHb0t3MUJDTDlnXzE2OTIwNDkyMTc6MTY5MjA1MjgxN19WNA
+https://ssqphnzv7a.feishu.cn/space/api/box/stream/download/asynccode/?npmcode=ZTI5MWViOTkwNzM1NzE0OTI5Mjg0ODNjNjc0MWI3MThfWjBvZ3I4SlhveUtVWmJpM3Zza3BnekFwQ3hCekxORDZfVG9rZW46Ym94Y25HT1llOWVJOUpNZWRHb0t3MUJDTDlnXzE2OTIwNDkyMTc6MTY5MjA1MjgxN19WNA
 
 如果再把 AOM（可访问树）引入起来的话，大致就像下图这样：
 
