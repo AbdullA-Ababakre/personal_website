@@ -66,7 +66,7 @@ export default function HomepageFeatures() {
                 <FaGithub size={24} />{" "}
               </a>{" "}
               <a
-                href="https://twitter.com/aqilgin"
+                href="https://twitter.com/achilgin"
                 className={styles.about_me__link}
               >
                 <FaTwitter size={24} />{" "}
@@ -77,7 +77,11 @@ export default function HomepageFeatures() {
               >
                 <FiMail size={24} />{" "}
               </a>{" "}
-              <a href="" target="_blank" className={styles.about_me__link}>
+              <a
+                href="https://file.notion.so/f/s/e5c297a4-7c11-4404-b492-f859039cdc11/FrontEnd-Abdulla.pdf.pdf?id=c818d5a8-64c4-418b-999f-10a26bffef3b&table=block&spaceId=b88cd6d2-9152-4f8c-bc4b-0bc450386149&expirationTimestamp=1692144000000&signature=WqvM-YI11_3Fz5uClwr7Rpkdizx1HmhuUvihN83Ymto&downloadName=FrontEnd-Abdulla.pdf.pdf"
+                target="_blank"
+                className={styles.about_me__link}
+              >
                 <IoDocumentTextOutline size={24} />{" "}
               </a>{" "}
             </div>{" "}
