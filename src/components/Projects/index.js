@@ -39,6 +39,15 @@ export default function Projects() {
       website: "https://mp.weixin.qq.com/s/k7Dz4U0_G0LxN0-5XK-iHA",
       image: "https://s1.ax1x.com/2023/08/15/pPM24Bj.png",
     },
+    {
+      title:"AI projects",
+      subtitle: "langchain,javascript,nextJs,tailwindcss",
+      description:
+        "AI pdf chatbot, AI memory chatbot , AI HR assistant , AI content creator",
+      github: "https://github.com/AbdullA-Ababakre/AI_learning_projects",
+      website: "https://ai-learning-projects.vercel.app/",
+      image:"https://z1.ax1x.com/2023/10/25/piVeCFO.png"
+    }
   ];
 
   return (

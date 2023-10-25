@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import MyPicture from "@site/static/img/picture_me2.jpeg";
 import Typed from "typed.js";
 
 export default function HomepageFeatures() {
@@ -12,9 +11,9 @@ export default function HomepageFeatures() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "<i>A fullstack javascript engineer</i>",
+        "<i>A fullstack  engineer</i>",
         "A Proud Uyghur",
-        "An Engineer who tried several startUps",
+        "A FREAKING kid  who tried several  startUps",
       ],
       typeSpeed: 50,
     });
@@ -32,7 +31,7 @@ export default function HomepageFeatures() {
           <div className={styles.about_me__info__container}>
             <figure className={styles.about_me__picture__mask}>
               <img
-                src={MyPicture}
+                src="https://z1.ax1x.com/2023/10/25/piVA2W9.jpg"
                 className={styles.about_me__picture}
                 alt="Picture of Me!"
               />

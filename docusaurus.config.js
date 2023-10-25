@@ -39,18 +39,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path:"technicalBlogs",
+          routeBasePath: 'technicalBlogs',
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,6 +52,27 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'randomThoughtsBlog',
+        path: 'randomThoughtsBlog',
+        routeBasePath: 'randomThoughtsBlog',
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'startUpBlog',
+        path: 'startUpBlog',
+        routeBasePath: 'startUpBlog',
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ]
+  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -89,31 +104,22 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Blog",
+            title: "Blogs",
             items: [
               {
                 label: "My Technical Blog",
-                to: "/docs/intro",
+                to: "/technicalBlogs/intro",
+              },
+              {
+                label: "Random Thoughts",
+                to: "/randomThoughtsBlog/intro",
+              },
+              {
+                label: "About Start Up",
+                to: "/startUpBlog/intro",
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
           {
             title: "Before Came to US",
             items: [
@@ -128,6 +134,10 @@ const config = {
               {
                 label: "Once upon a time on TV(Uyghur && Chinse)",
                 href: "https://mega.nz/file/Ma9CDDjI#gpvS6VYtBr4t__inCOjhUyRMiekYe9kR5ZHhApsBZZc",
+              },
+              {
+                label: "Wteam(did some crazy shit in Uni(Chinese)",
+                href: "https://mp.weixin.qq.com/s/LFjpwNqrRMk71kLRPs7Awg",
               },
             ],
           },
