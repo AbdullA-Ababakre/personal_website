@@ -77,7 +77,7 @@ export default function HomepageFeatures() {
                 <FiMail size={24} />{" "}
               </a>{" "}
               <a
-                href="https://file.notion.so/f/s/e5c297a4-7c11-4404-b492-f859039cdc11/FrontEnd-Abdulla.pdf.pdf?id=c818d5a8-64c4-418b-999f-10a26bffef3b&table=block&spaceId=b88cd6d2-9152-4f8c-bc4b-0bc450386149&expirationTimestamp=1692144000000&signature=WqvM-YI11_3Fz5uClwr7Rpkdizx1HmhuUvihN83Ymto&downloadName=FrontEnd-Abdulla.pdf.pdf"
+                href="https://mega.nz/file/dKFihbDY#Teu3sIBnvTLtV0qqLS6EtZXvZErXiIdHi3f3mhaaT3M"
                 target="_blank"
                 className={styles.about_me__link}
               >
