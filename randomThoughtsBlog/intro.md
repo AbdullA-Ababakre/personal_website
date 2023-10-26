@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-Everything about random thoughts
+Everything about random
 

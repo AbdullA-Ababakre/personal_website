@@ -39,12 +39,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path:"technicalBlogs",
-          routeBasePath: 'technicalBlogs',
+          path: "technicalBlogs",
+          routeBasePath: "technicalBlogs",
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
-          showReadingTime: true
+          showReadingTime: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -54,25 +54,24 @@ const config = {
   ],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'randomThoughtsBlog',
-        path: 'randomThoughtsBlog',
-        routeBasePath: 'randomThoughtsBlog',
+        id: "randomThoughtsBlog",
+        path: "randomThoughtsBlog",
+        routeBasePath: "randomThoughtsBlog",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'startUpBlog',
-        path: 'startUpBlog',
-        routeBasePath: 'startUpBlog',
+        id: "startUpBlog",
+        path: "startUpBlog",
+        routeBasePath: "startUpBlog",
         sidebarPath: require.resolve("./sidebars.js"),
       },
-    ]
+    ],
   ],
-
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -90,8 +89,32 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Blog",
+            label: "Technical Blog",
           },
+          {
+            to: "/randomThoughtsBlog/intro",
+            label: "randomThoughts",
+            position: "left",
+            activeBaseRegex: `/randomThoughts/`,
+          },
+          {
+            to: "/startUpBlog/intro",
+            label: "startUp",
+            position: "left",
+            activeBaseRegex: `/startup/`,
+          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "randomThoughtsSidebar",
+          //   position: "left",
+          //   label: "Random Thoughts",
+          // },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "startUpBlog",
+          //   position: "left",
+          //   label: "StartUp",
+          // },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/AbdullA-Ababakre?tab=repositories",
