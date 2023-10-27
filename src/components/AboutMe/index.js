@@ -37,8 +37,7 @@ export default function HomepageFeatures() {
               />
             </figure>{" "}
             <h1 className={styles.about_me__info__title}>
-              Hey!I 'm{" "}
-              <span className={styles.text__purple}> Abdulla Ababakre </span>
+              Hey!I 'm <span className={styles.text__purple}> Baker </span>
               &nbsp; <span className={styles.wave}> 👋 </span>{" "}
             </h1>{" "}
             <p className={styles.about_me__info__para}>

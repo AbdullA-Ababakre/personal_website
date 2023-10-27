@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-Everything about tech
+Here I write my technical blogs...
 
 
 See the demo below 
