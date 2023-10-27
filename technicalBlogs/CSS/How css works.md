@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 Web Page Rendering Process
 Web pages are fundamentally composed of three components: HTML, CSS, and JavaScript. The process by which these components are interpreted and presented to the user involves several steps, illustrated in the subsequent diagrams:
 

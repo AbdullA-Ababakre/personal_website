@@ -31,7 +31,8 @@ const PorjectItem = ({ project }) => {
               <FaGithub size={24} />
             </a>
             <a
-              href={project.link}
+              href={project.website}
+              target="_blank"
               className={styles.project__description__link}
             >
               <FiExternalLink size={24} />
