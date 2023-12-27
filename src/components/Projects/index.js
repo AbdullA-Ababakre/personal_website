@@ -47,6 +47,15 @@ export default function Projects() {
       github: "https://github.com/AbdullA-Ababakre/AI_learning_projects",
       website: "https://ai-learning-projects.vercel.app/",
       image:"https://z1.ax1x.com/2023/10/25/piVeCFO.png"
+    },
+    {
+      title:"More Projects",
+      subtitle: "langchain,javascript,nextJs,tailwindcss",
+      description:
+        "More Projects are in my resume ",
+      github: "https://github.com/AbdullA-Ababakre/AI_learning_projects",
+      website: "https://mega.nz/file/4PVS2A4b#-0ZJoPKz2jYjkVd_QBUBB3wsoBNBi-7U1u1HjT7Lok0",
+      image:"https://z1.ax1x.com/2023/10/25/piVeCFO.png"
     }
   ];
 

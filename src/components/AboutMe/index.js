@@ -76,7 +76,7 @@ export default function HomepageFeatures() {
                 <FiMail size={24} />{" "}
               </a>{" "}
               <a
-                href="https://mega.nz/file/dKFihbDY#Teu3sIBnvTLtV0qqLS6EtZXvZErXiIdHi3f3mhaaT3M"
+                href="https://mega.nz/file/4PVS2A4b#-0ZJoPKz2jYjkVd_QBUBB3wsoBNBi-7U1u1HjT7Lok0"
                 target="_blank"
                 className={styles.about_me__link}
               >
