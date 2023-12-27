@@ -54,9 +54,9 @@ export default function Projects() {
       description:
         "AI Clone platform",
       github: "https://github.com/AbdullA-Ababakre/AiClone",
-      website: "myaiclone.co",
+      website: "https://www.myaiclone.co/",
       image:"https://z1.ax1x.com/2023/10/25/piVeCFO.png"
-    }
+    },
     {
       title:"More Projects",
       subtitle: "langchain,javascript,nextJs,tailwindcss",
